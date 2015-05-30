@@ -24,9 +24,9 @@ if(isset($_POST['email'])) {
 	// or if you prefer/need to fall back to use PHP's inbuilt mail() function:
 	// $transport = Swift_MailTransport::newInstance();
 	
-	$transport = Swift_SmtpTransport::newInstance('email-smtp.us-east-1.amazonaws.com', 25, 'tls' )
-	  ->setUsername('AKIAICT2HGWT6YQ2LMLQ')     
-	  ->setPassword('4b9iy4TtZkUaWcP2/1OJMfXs4bS2T8z0VDGjjZvh')
+	$transport = Swift_SmtpTransport::newInstance('email-smtp.us-east-1.amazonaws.com', 465, 'ssl' )
+	  ->setUsername('AKIAJEG4AKCG7GTRSGKA')     
+	  ->setPassword('AmaDCGoxEKrwZYxtikTXIEVSgQrhR499M05ATM97aD4m')
 	  ;
 
 	
