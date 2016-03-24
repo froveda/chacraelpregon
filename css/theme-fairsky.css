@@ -88,9 +88,19 @@ img {
 .pull-left {
   left: 0;
 }
+
+.requisites ul {
+  list-style-type: disc;
+  list-style-position: inside;
+}
+
 @media all and (max-width: 767px) {
   .hide-for-small {
     display: none;
+  }
+
+  .features-5 .feature.requisites h4, .features-5 .feature.requisites ul {
+    text-align: center !important;
   }
 }
 /*!---------- MIXINS ----------*/
@@ -2018,7 +2028,7 @@ nav.dismiss-active {
   box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.26);
 }
 .features-1 {
-  padding: 120px 0;
+  padding: 90px 0;
 }
 .features-1 .hover-gallery {
   margin-bottom: 40px;
