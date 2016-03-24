@@ -49,7 +49,7 @@ if(isset($_POST['email'])) {
 	// You can change "A message from Pivot Template Form" to your own subject if you want.
 	$message = Swift_Message::newInstance('Nuevo email desde vendemos chacra!')
 	  ->setFrom(array('gcorbi@wedcompany.com' => "Guapi Corbi"))
-	  ->setTo(array('froveda@gmail.com' => 'Fabricio Roveda'))->setBody($messageText);
+	  ->setTo(array('tetecorbi@gmail.com' => 'Vendemos Chacra')->setBody($messageText);
 //                           ^                    ^
 //       Your email address_/          Your name_/
 
