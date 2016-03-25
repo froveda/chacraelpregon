@@ -1,4 +1,4 @@
-$(document).ready(function() { 
+$(document).ready(function() {
 
 	"use strict";
 
@@ -440,6 +440,27 @@ $(document).ready(function() {
 $(window).load(function() { 
 
 	"use strict";
+
+    // Initialize owl carousel for more photos
+    $('.owl-carousel-gallery').owlCarousel({
+      loop: false,
+      margin:10,
+      responsiveClass:true,
+      responsive:{
+        0:{
+          items:1,
+          nav:true
+        },
+        768:{
+          items:2,
+          nav:false
+        },
+        992:{
+          items:3,
+          nav:false
+        }
+      }
+    });
 
     // Initialize twitter feed
 

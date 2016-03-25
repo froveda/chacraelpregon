@@ -94,6 +94,20 @@ img {
   list-style-position: inside;
 }
 
+.requisites-container img{
+  width: 100%;
+}
+
+.owl-carousel-gallery .owl-nav {
+  display: none;
+}
+
+@media all and (min-width: 991px) {
+  .owl-carousel-gallery .owl-dots {
+    display: none !important;
+  }
+}
+
 @media all and (max-width: 767px) {
   .hide-for-small {
     display: none;
