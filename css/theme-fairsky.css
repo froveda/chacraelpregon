@@ -102,6 +102,13 @@ img {
   display: none;
 }
 
+.first-slide h5 p {
+  font-size: 22px;
+  line-height: 30px;
+  font-weight: 400;
+  margin-bottom: 15px;
+}
+
 @media all and (min-width: 991px) {
   .owl-carousel-gallery .owl-dots {
     display: none !important;
