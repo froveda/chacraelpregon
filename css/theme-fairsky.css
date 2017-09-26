@@ -34,7 +34,7 @@ body {
 nav,
 nav.fixed,
 .callout {
-  max-width: 1600px;
+  /*max-width: 1600px;*/
   margin: 0 auto;
   left: 0;
   right: 0;
@@ -107,12 +107,6 @@ img {
   line-height: 30px;
   font-weight: 400;
   margin-bottom: 15px;
-}
-
-@media all and (min-width: 991px) {
-  .owl-carousel-gallery .owl-dots {
-    display: none !important;
-  }
 }
 
 @media all and (max-width: 767px) {
